@@ -16,14 +16,12 @@ public class ReverseString {
 
     /**  what Sachin actually requested. */
     public static String recurReverseStr_returnResult(String str) {
-
-		StringBuilder sb = new StringBuilder();
-
-		for (int i = str.length() - 1; i >= 0; i--) {
-			sb.append(str.charAt(i));
+	
+		if (str.length() <= 1) {
+			return str;
 		}
-
-		return sb.toString();
+	
+		return recurReverseStr_returnResult(str.substring(1)) + str.charAt(0);
     }
 
 
