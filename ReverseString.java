@@ -17,9 +17,8 @@ public class ReverseString {
     /**  what Sachin actually requested. */
     public static String recurReverseStr_returnResult(String str) {
 	
-		if (str.length() <= 1) {
+		if (str.length() <= 1)
 			return str;
-		}
 	
 		return recurReverseStr_returnResult(str.substring(1)) + str.charAt(0);
     }
