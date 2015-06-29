@@ -25,3 +25,17 @@ Here are links to uml diagrams I generated this afternoon.  Initial attempts fai
 		tiny:
 		
 			https://github.com/stuartcrobinson/seabiscuit/blob/master/uml/uml%20image/much%20smaller%20uml%20image.png
+			
+			
+Also, here are links to a number of interfaces and super classes and abstract classes I wrote.  
+
+	https://github.com/stuartcrobinson/seabiscuit/tree/65c12a538704bcb6d0a211ea943be2df4036ae28/src/supers
+	
+	https://github.com/stuartcrobinson/seabiscuit/blob/65c12a538704bcb6d0a211ea943be2df4036ae28/src/analyze/comparators/MyComparator.java
+	
+	https://github.com/stuartcrobinson/seabiscuit/blob/65c12a538704bcb6d0a211ea943be2df4036ae28/src/analyze/conditions/EraCondition.java
+	
+In this file you can find lots of overloaded methods (e.g. public static void sbDelimiterAppend):
+
+	https://github.com/stuartcrobinson/seabiscuit/blob/65c12a538704bcb6d0a211ea943be2df4036ae28/src/utilities/G.java
+
